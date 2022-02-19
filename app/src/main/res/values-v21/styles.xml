@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyAppStyle" parent="Theme.AstronomyPicture">
+        <item name="statusBarBackground">@drawable/background_transparent</item>
+        <item name="actionBarStyle">@style/MyTheme.ActionBar</item>
+    </style>
+</resources>
