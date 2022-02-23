@@ -10,8 +10,14 @@
     <string name="api_key">16yz2fbfM4x2KDSqepeJWeeuhpchBTrBgMO5ROUi</string>
     <string name="download_start">Download Start</string>
     <string name="there_are_no_network">There are no network</string>
-    <string name="about_us">My name is Huzifa Mokhtar and this is my app</string>
+    <string name="about_us">يعد علم الفلك والفضاء الخارجي من العلوم التي تستهوي الكثيرين حيث أن هناك الكثير من الناس ممن يحبون تعلم واستكشاف الجديد في هذا العلم.
+
+كما لا يكاد يختلف شخصان على جمال وروعة تلك الصور الجذابة للكواكب والمجرات والنجوم والتي تدعونا إلى التفكر في بديع هذا الكون.
+
+        حيث يقوم هذا التطيبق بجلب صورة من وكالة ناسا او فيديو و يعطيك امكانية تحميل الصورة او مشاركتها مع اصدقائك كما يتيح اختيار يوم محدد و يعطيك صورته او الفيديو الخاص به </string>
     <string name="we_need_permission_to_download">We need premission to download Image in your device</string>
     <string name="we_cant_download_image">"We can't download Images "</string>
     <string name="Download_File_please_wait">Download File please wait.....</string>
+    <string name="my_app">Huzifa Mukhtar</string>
+    <string name="About_us">About us</string>
 </resources>

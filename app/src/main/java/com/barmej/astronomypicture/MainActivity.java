@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements DataPakerDialogFr
         setContentView(R.layout.activity_main);
 
         mNestedScrollView = findViewById(R.id.nested_scroll_view);
-        BottomSheetBehavior.from(mNestedScrollView);
+        BottomSheetBehavior.from(mNestedScrollView).setState(BottomSheetBehavior.STATE_DRAGGING);
 
         mImageView = findViewById(R.id.image_view);
         titleTextView = findViewById(R.id.title_text_view);
@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements DataPakerDialogFr
         if (windowInsetsController == null) {
             return;
         }
+
         // Configure the behavior of the hidden system bars
         windowInsetsController.setSystemBarsBehavior(WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
         // Hide both the status bar and the navigation bar
